@@ -41,4 +41,5 @@ $routes->add(
     new Route('/user/logout', ['_controller' => [UserController::class, 'logoutAction']])
 );
 
+
 return $routes;
