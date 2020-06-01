@@ -7,6 +7,15 @@ use Framework\Registry;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpFoundation\Request;
 
+/**
+ * FRONT CONTROLLER
+ * Создает обьект Kernel
+ * конфигурирует его создавая контейнер, добавляя конфигурации и роуты
+ * создает обьект Request
+ * передает обьект Request в Kernel вызывая метод обработки запроса и
+ * получая ответ отправляет его
+ **/
+
 require_once __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR .
     'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 
