@@ -11,6 +11,13 @@ use Symfony\Component\Routing\Generator\UrlGenerator;
 use Symfony\Component\Routing\RequestContext;
 use Symfony\Component\Routing\RouteCollection;
 
+/**
+ *  паттерн Registry
+ * обеспечивает глобальный доступ к конфигурационным данным
+ * или инстанс класса RouteCollection .
+
+ **/
+
 class Registry
 {
     /**
